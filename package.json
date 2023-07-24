@@ -1,0 +1,29 @@
+{
+  "name": "NextjsMiddleware",
+  "version": "1.0.0",
+  "description": "A Next.js middleware for token-gating a route based on the user holding a certain NFT using Holaplex Hub APIs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juniorvish/NextjsMiddleware.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.15",
+    "tailwindcss": "^2.2.16",
+    "typescript": "^5.1.6"
+  }
+}
